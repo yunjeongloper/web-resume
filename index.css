@@ -1,0 +1,163 @@
+::-moz-selection {
+    background: #f00;
+    color: #fff;
+}
+
+::selection {
+    background: #f00;
+    color: #fff;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 25px 50px;
+    text-align: left;
+    width: 820px;
+}
+
+body:lang(kr) {
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 0px;
+}
+
+.divider {
+    border: 1px solid rgb(227, 227, 227);
+    margin: 0px;
+}
+
+/*
+* .content
+*/
+
+.content {
+    display: flex;
+    flex-direction: row;
+}
+
+.content .left-container {
+    display: flex;
+    flex-direction: column;
+    width: 230px;
+    padding-right: 20px;
+    border-right: 2px solid rgb(227, 227, 227);
+}
+
+.content .right-container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+.content .right-container hr {
+    border: 1px solid rgb(227, 227, 227);
+    width: 100%;
+    margin: 0px;
+}
+
+/*
+* section
+*/
+
+section {
+    margin-top: 13px;
+    margin-bottom: 13px;
+}
+
+section > h3, h4 {
+    margin-bottom: 0;
+}
+
+section > p {
+    margin-top: 10px;
+}
+
+section h3:after {
+    content: "";
+    display: block;
+    width: 30px;
+    border-bottom: 2px solid black;
+    margin: 10px 0px;
+}
+
+section.info p,
+section.skills p {
+    color: gray;
+}
+
+section.profile p {
+    color: rgb(111, 111, 111);
+}
+
+section:last-child {
+    margin-bottom: 32px;
+}
+
+/*
+* .history article
+*/
+
+.history {
+    margin: 20px 0px;
+}
+
+.history header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.history .history-name {
+    font-size: 1.1em;
+}
+
+.history .position {
+    color: gray;
+    margin-top: 5px;
+    font-size: 0.9em;
+}
+
+.history .description {
+    color: rgb(63, 63, 63);
+    margin-top: 5px;
+    font-size: 0.9em;
+}
+
+ul {
+    margin: 8px 0;
+    padding-left: 0px;
+    list-style-type: none;
+}
+
+.presents-more {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.more-button {
+    color: gray;
+    font-size: 0.9em;
+    font-weight: 600;
+}
+
+.more-button:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+/*
+* footer
+*/
+
+footer {
+    font-size: 0.6em;
+    padding-top: 15px;
+}
