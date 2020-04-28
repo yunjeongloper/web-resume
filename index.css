@@ -78,6 +78,10 @@ section > p {
     margin-top: 10px;
 }
 
+section h3 {
+    font-size: 1.4em;
+}
+
 section h3:after {
     content: "";
     display: block;
@@ -110,28 +114,34 @@ section:last-child {
 .history header {
     display: flex;
     justify-content: space-between;
+    font-size: 1.1em;
 }
 
 .history .history-name {
-    font-size: 1.1em;
+    font-size: 1.2em;
+    font-weight: 500;
 }
 
 .history .position {
     color: gray;
     margin-top: 5px;
-    font-size: 0.9em;
+    font-size: 0.9em
 }
 
 .history .description {
     color: rgb(63, 63, 63);
     margin-top: 5px;
-    font-size: 0.9em;
+    font-size: 0.9em
 }
 
 ul {
     margin: 8px 0;
     padding-left: 0px;
     list-style-type: none;
+}
+
+ul li {
+    font-size: 1.0em
 }
 
 .presents-more {
@@ -145,7 +155,7 @@ ul {
 .more-button {
     color: gray;
     font-size: 0.9em;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .more-button:hover {
