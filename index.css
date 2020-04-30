@@ -61,6 +61,11 @@ h1 {
     margin: 0px;
 }
 
+.hyperlinkText:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
 /*
 * section
 */
